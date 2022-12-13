@@ -57,5 +57,4 @@ public class HealerFighter extends Fighter implements HitPointRegenerable {
 	private void setHealingPoint() {
 		healingPoint = MIN_HEALING_POINT + Math.random() * MAX_EXTRA_HEALING_POINT; // healingPoint is between 5,10
 	}
-	
 }
