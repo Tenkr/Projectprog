@@ -29,7 +29,6 @@ public class GameBoard implements Updatable {
 		map = new int[ROWS][COLS];
 
 		setDefault();
-		// add king in board 
 		KingFighter Player1king = new KingFighter(GameConstant.MELEE_TYPE_STRING,1);
 		KingFighter Player2king =new KingFighter(GameConstant.MELEE_TYPE_STRING,2);
 		this.P1king=Player1king;
